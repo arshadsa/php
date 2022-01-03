@@ -1,6 +1,6 @@
 <?php
 
-$the_username = $POST["username"];
+$the_username = $_POST["username"];
 
 if($the_username!=""){
   print "$the_username";
@@ -11,6 +11,4 @@ if($the_username!=""){
   print "<input type='submit' value='Go'>";
   print "</form>";
 }
-
-
 ?>
